@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+
+html{
+    height: 100% ;
+}
+
+body{
+    background-color: #1c0b3f;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.title{
+     padding: 0 20px;
+     font-size: 1.75em;
+     text-transform: uppercase;
+}
+h1.title{
+    margin: 40px auto 20px ;
+}
+ 
+.text-justify{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.margin-horizontal-20px{
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+
+@media screen and (min-width:500px) {
+    .w-50pct-desktop{
+        width: 50% !important;
+    }
+    
+}
+
